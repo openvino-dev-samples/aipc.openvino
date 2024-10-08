@@ -1,7 +1,7 @@
 @echo off
 
 echo Creating Python environment...
-call "C:\Users\%USERNAME%\miniconda3\Scripts\conda" create -n openvino_qwen python=3.10 -y
+call "C:\Users\%USERNAME%\miniconda3\Scripts\conda" create -n openvino_aipc python=3.10 -y
 
 echo Activating environment...
 call "C:\Users\%USERNAME%\miniconda3\Scripts\activate.bat" openvino_aipc
