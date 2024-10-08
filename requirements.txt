@@ -4,7 +4,7 @@ llama-index-readers-file
 llama-index-llms-openvino>=0.3.0
 llama-index-embeddings-openvino>=0.3.0
 
-optimtum-intel[diffusers]
+optimum[openvino]==1.22.0
 nncf==2.13.0
 openvino==2024.4.0
 openvino-genai==2024.4.0.0
