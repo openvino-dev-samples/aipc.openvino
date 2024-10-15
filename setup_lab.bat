@@ -9,7 +9,6 @@ call "C:\Users\%USERNAME%\miniconda3\Scripts\activate.bat" openvino_aipc
 echo Installing requirements...
 python -m pip install --upgrade pip
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
-pip install transformers==4.45 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 
 echo Checking installed packages...
 conda list
